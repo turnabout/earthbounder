@@ -1,0 +1,72 @@
+<html>
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+	<head>
+		<title>Earthbounder</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="css/earthbounder.css" type="text/css" rel="stylesheet"/>
+	</head>
+	
+	<body>
+	
+		<a href="../index.html">
+			<div id="return">
+				<p>Revenir sur Kappa World Order</p> <img src="images/arrow.png"/>
+			</div>
+		</a>
+	
+		<div id="header"></div>
+		
+		<div id="pageblock">
+	
+			<div id="canvasContainer">
+			
+			
+			<!-- Introduction div -->
+			<div id="intro">
+			
+				<img id="ness" src="images/nesswalking.gif"/>
+				
+				
+				<div id="introtext1">
+					<br>
+					<p>Nommez-le.</p>
+				</div>
+				
+				<div id="introtext2">
+					<br><br>
+					<input type="text" id="playername"/>
+				</div>
+				
+				<div id="instructions"></div>
+				
+				<a href="#">
+					<div id="playbutton" onClick="startGame();">Jouer!</div>
+				</a>
+				
+			</div>
+			
+			
+			
+			
+			
+			
+			<canvas width="750" height="580" id="background"></canvas>
+			<canvas width="750" height="580" id="main"></canvas>
+			<canvas width="750" height="580" id="text"></canvas>
+				
+				
+			<div id="debug"></div>
+				
+			<div id="textBox">
+				<div id="restart"><a href="#" onclick="restartGame();">RECOMMENCER</a></div>
+			</div>
+				
+			</div>
+			
+		</div>
+			
+		<script src="js/earthbounder.js"></script>
+		
+	</body>
+	
+</html>

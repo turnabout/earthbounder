@@ -1,0 +1,64 @@
+/* GAMEPLAY CHANGES */
+
+-Fix the game over screen
+
+-Tweak with the way character movement is handled
+
+-Make it so the player jumps back a little bit upon hitting a hard obstacle after a high fall
+
+
+-Add an "enter" event listener on the game over screen, and on the intro screen
+
+
+-Add a time attack mode in which the goal is to get all the presents with the fastest time possible
+
+
+
+
+/* GRAPHICAL CHANGES */
+
+-Add another layer on top of all layers, make a nice glassy filter in photoshop and use it on that layer to create a unique effect, and give a polished look to the graphics
+
+-Implement a system so the player will flash red or flicker upon receiving damage
+
+-Add a more graphical interface for lives, health and presents collected
+
+
+-Add scrolling background
+
+
+-Once a better way to handle images and animation is found and implemented, place a bunch of other earthbound characters in the game and make them selectable on the intro screen
+
+-Make it so a really big fall against the ground will deduct from the player's life count instantly
+
+
+
+
+
+/* AUDIO CHANGES*/
+
+-Add a toggleable mute button for both music & sound effects in the top right corner
+
+-Add a "game over" music
+
+-Add a "game win" sound fx/music
+
+
+
+
+
+
+
+
+
+/* BIGGER CHANGES */
+
+-Find an alternative, better way to store and use images (specifically,
+ find a better way to handle all the images onLoad() functions
+
+-Find a better way to animate the player
+
+-Find a better and easier way to handle the placement of obstacles
+
+-Implement a message box system
+
